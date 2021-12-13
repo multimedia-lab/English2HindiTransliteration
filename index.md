@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# English to Hindi Transliteration 
+English to Hindi Transliteration — Create your own google Hindi input tool
 
-You can use the [editor on GitHub](https://github.com/multimedia-lab/English2HindiTransliteration/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h1>1.	Introduction:</h1>
+<h3>a.	Motivation:</h3>
+<p>Nowadays everyone wants to communicate, work in their native language. Specially in India, majority talks, understand Hindi language.<p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h3>b.	Definition: </h3>
+<p>Transliteration is the process of transferring a word from the alphabet of one language to another. Transliteration helps people pronounce words and names in foreign languages”. Unlike a translation, which tells you the meaning of a word that’s written in another language, a transliteration only gives you an idea of how the word is pronounced, by putting it in a familiar alphabet. It changes the letters from the word’s original alphabet to similar-sounding letters in a different one.</p>
 
-### Markdown
+We can think of Transliteration as sequence to sequence modeling problem. Sequence-to-sequence and long-short term modelling. (Seq2Seq) is about training models to convert sequences from one domain (e.g. words in English) to sequences in another domain (e.g. the same words transliterated to Hindi
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<h3>Applications of Transliteration:</h3>
+<h5>-Used in Translation</h5>
+<h5>-Helpful in Typing </h5>
+<h5>-Information Retrieval in Code Mix language</h5>
 
-# Header 1
-## Header 2
-### Header 3
+<h3>Future Enhancement:</h3>
+Since model has not learn many phonetics encoding due to low amount of data model architecture, we can modify our current neural network architecture with encoder decoder layer and attention layer. We can also collect more data to enhance CER and bleu score.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/multimedia-lab/English2HindiTransliteration/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<h3>BLOG LINK: </h3>
+(https://medium.com/multimedia-lab-2-0/english-to-hindi-transliteration-create-your-own-google-hindi-input-tool-50b368eba241?source=friends_link&sk=17ebc3491d167b3032319b769ad63111)
